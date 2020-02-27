@@ -1,0 +1,11 @@
+[build]
+  # Directory to change to before starting a build.
+  # This is where we will look for package.json/.nvmrc/etc.
+  base = "kiandras-project.webflow-2_26/"
+
+publish = "kiandras-project.webflow-2_26/build-output/"
+
+[context.deploy-preview]
+  publish = "kiandras-project.webflow-2_26/dist/"
+
+
